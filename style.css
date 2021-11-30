@@ -150,15 +150,9 @@ button.delete img:hover {
   color: #888;
 }
 
-input[type=text] {
-  display: none;
-}
-
-li.editMode input[type=text] {
+input[type=text],
+li.editMode label {
   display: inline-block;
   width: 224px
-}
-
-li.editMode label {
   display: none;
 }
